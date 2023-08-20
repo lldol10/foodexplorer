@@ -4,8 +4,10 @@ import { AppRoutes } from "./app.routes";
 import {AdmRoutes} from "./adm.routes";
 import { AuthRoutes } from "./auth.routes";
 
+
 export function Routes(){
      const user = localStorage.getItem('@foodexplorer:isAdm')
+
      
     
        

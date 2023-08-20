@@ -8,14 +8,15 @@ function AuthProvider({children}){
 
     async function signIn({email, password}){
         try{
-            
+            alert('manito')
             const response = await api.post("/sessions", {email, password })
             const {user, token} = response.data
         
-           
+            console.log('user')
+            console.log(user)
             localStorage.setItem("@foodexplorer:user" , JSON.stringify(user))
             localStorage.setItem("@foodexplorer:token" , token)
-            localStorage.setItem("@foodexplorer:isAdm" , user.isAdm)
+            localStorage.setItem("@foodexplorer:isAdm" , user.isAdmin)
             api.defaults.headers.common['Authorization'] = `Bearer ${token}`
             setData({user, token})
 
