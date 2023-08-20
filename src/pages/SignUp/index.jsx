@@ -53,11 +53,11 @@ export  function SignUp(){
             <h1>Crie sua conta</h1>
 
             <div className='group'>
-            <label htmlFor="email">Seu nome</label>
+            <label htmlFor="name">Seu nome</label>
             <Input 
             placeholder="Exemplo: Maria da Silva"
             type="text"
-            id="email" 
+            id="name" 
             onChange={e => setName(e.target.value) }
             />
             </div>

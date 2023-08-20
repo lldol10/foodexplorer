@@ -8,7 +8,7 @@ function AuthProvider({children}){
 
     async function signIn({email, password}){
         try{
-            alert('manito')
+            
             const response = await api.post("/sessions", {email, password })
             const {user, token} = response.data
         
@@ -19,7 +19,7 @@ function AuthProvider({children}){
             localStorage.setItem("@foodexplorer:isAdm" , user.isAdmin)
             api.defaults.headers.common['Authorization'] = `Bearer ${token}`
             setData({user, token})
-
+            console.log(data)
             window.location.href='/'
             
 
