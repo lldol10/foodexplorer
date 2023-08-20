@@ -46,14 +46,13 @@ Mencione as ferramentas que você usou para criar seu projeto
 * Um desafio muito legal poder fazer parte desse projeto 🫂;
 
 
- ## Observações Finais 
- 
-    **Quando rodo o projeto pelo link do deploy, estou conseguindo salvar apenas os dados do
+ **Observações Finais**  
+    *Quando rodo o projeto pelo link do deploy, estou conseguindo salvar apenas os dados do
     usuario no banco de dados.  Quando utilizando o insomnia, as requisições acontecem normalmente, tanto para usuario quanto para pratos
     (Criação, alteração, delete.)  No ambiente de teste, executando na maquina local, no host local (localhost:3333) está acontecendo 
     tudo bem,  problema ocorre ao utilizar pelo link do deploy.
   
-  Ainda não foi identificado este problema.**  
+  Ainda não foi identificado este problema.*
   
 ---
 ⌨️ com ❤️ 
