@@ -48,12 +48,12 @@ Mencione as ferramentas que você usou para criar seu projeto
 
  ## Observações Finais 
  
-    Quando rodo o projeto pelo link do deploy, estou conseguindo salvar apenas os dados do usuario no banco de dados, os de pratos cadastrados não.  
+    **Quando rodo o projeto pelo link do deploy, estou conseguindo salvar apenas os dados do usuario no banco de dados, os de pratos cadastrados não.  
     Quando testado utilizando o insomnia, as requisições acontecem normalmente, tanto para usuario quanto para pratos
   (Criação, alteração, delete.)
     No ambiente de teste, executando na maquina local, no host local (localhost:3333) está acontecendo tudo bem tambem,
   problema apareceu depois de ter feito o deploy.
-  Ainda não foi identificado este problema.  
+  Ainda não foi identificado este problema.**  
   
 ---
 ⌨️ com ❤️ 
