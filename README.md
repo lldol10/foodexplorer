@@ -43,11 +43,10 @@ Mencione as ferramentas que você usou para criar seu projeto
 ## 🎁 Expressões de gratidão
 
 * Projeto que tem a cara de um site de um restaurante 📢;
-* 
 * Um desafio muito legal poder fazer parte desse projeto 🫂;
 
 
-  Observações Finais {
+ ## Observações Finais {
     Quando rodo o projeto pelo link do deploy, estou conseguindo salvar apenas os dados do usuario no banco de dados,
    os de pratos cadastrados não.
   
