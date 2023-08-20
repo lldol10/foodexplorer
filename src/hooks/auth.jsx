@@ -9,6 +9,7 @@ function AuthProvider({children}){
     async function signIn({email, password}){
         try{
             
+            alert("iniciando aplicação")
             const response = await api.post("/sessions", {email, password })
             const {user, token} = response.data
         
